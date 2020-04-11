@@ -1,0 +1,75 @@
+{
+	"Version": 3,
+	"Meta": {
+		"Duration": 2.97,
+		"Fps": 30.0,
+		"Loop": true,
+		"AreBeziersRestricted": true,
+		"CurveCount": 3,
+		"TotalSegmentCount": 5,
+		"TotalPointCount": 18,
+		"UserDataCount": 0,
+		"TotalUserDataSize": 0
+	},
+	"Curves": [
+		{
+			"Target": "Model",
+			"Id": "Opacity",
+			"Segments": [
+				0,
+				1,
+				1,
+				0.99,
+				1,
+				1.98,
+				1,
+				2.97,
+				1
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamBodyAngleY",
+			"Segments": [
+				0,
+				0,
+				1,
+				0.633,
+				0,
+				1.267,
+				4,
+				1.9,
+				4,
+				1,
+				2.256,
+				4,
+				2.611,
+				0,
+				2.967,
+				0
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Id": "ParamBreath",
+			"Segments": [
+				0,
+				0,
+				1,
+				0.633,
+				0,
+				1.267,
+				0.9,
+				1.9,
+				0.9,
+				1,
+				2.256,
+				0.9,
+				2.611,
+				0,
+				2.967,
+				0
+			]
+		}
+	]
+}
