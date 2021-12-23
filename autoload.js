@@ -1,5 +1,5 @@
 // 注意：live2d_path 参数应使用绝对路径
-const live2d_path = "https://cdn.jsdelivr.net/gh/EndureBlaze/live2d-hao@latest/";
+const live2d_path = "https://github.com.cnpmjs.org/EndureBlaze/live2d-hao/";
 //const live2d_path = "/live2d-widget/";
 
 // 封装异步加载资源的方法
@@ -28,8 +28,8 @@ function loadExternalResource(url, type) {
 // 加载 waifu.css live2d.min.js waifu-tips.js
 if (screen.width >= 768) {
 	Promise.all([
-		loadExternalResource("https://cdn.jsdelivr.net/npm/promise-polyfill@8/dist/polyfill.min.js", "js"),
-		loadExternalResource("https://cdn.jsdelivr.net/npm/pixi.js@4.6.1/dist/pixi.min.js", "js"),
+		loadExternalResource("https://unpkg.com/promise-polyfill@8/dist/polyfill.min.js", "js"),
+		loadExternalResource("https://unpkg.com/pixi.js@4.6.1/dist/pixi.min.js", "js"),
 		loadExternalResource("https://cubism.live2d.com/sdk-web/cubismcore/live2dcubismcore.min.js", "js"),
 		loadExternalResource(live2d_path + "waifu.css", "css"),
 		loadExternalResource(live2d_path + "waifu-tips.js", "js")
